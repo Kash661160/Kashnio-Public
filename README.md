@@ -27,6 +27,18 @@ admission. A downloaded node begins outside consensus and cannot affect quorum.
 
 ## Latest update
 
+**Three-host Kashnio runtime verification completed — 2026-09-05**
+
+All three fixed core validators now run under Kashnio service, account,
+hostname, configuration, executable, and state-path conventions. A common
+finalized sample matched all three validators at height 330,211 and public
+finality subsequently advanced beyond height 330,229. The public Explorer
+reported every service component operational, with two agreeing RPC origins
+and the canonical persistent indexer healthy.
+
+- [Verify live network status](https://explorer.kashnio.com/status)
+- [Read the current network boundary](NETWORK.md)
+
 **RC8.14 signed cross-platform release published — 2026-09-03**
 
 RC8.14 provides signed native Linux, macOS, and Windows packages with checksum
@@ -66,7 +78,7 @@ production certification, or mainnet approval.
 | Read-only RPC | https://rpc.kashnio.com/rpc |
 | Redundant read-only RPC | https://rpc2.kashnio.com/rpc |
 | Finalized-state indexer | https://indexer.kashnio.com/api/indexer |
-| Redundant finalized-state indexer | https://indexer2.kashnio.com/api/indexer |
+| Routed finalized-state indexer alias | https://indexer2.kashnio.com/api/indexer |
 
 ## Documentation
 

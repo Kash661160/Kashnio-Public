@@ -23,12 +23,13 @@
 | RPC health | `https://rpc.kashnio.com/rpc/health` |
 | RPC status | `https://rpc.kashnio.com/rpc/status` |
 | Indexer base | `https://indexer.kashnio.com/api/indexer` |
-| Redundant indexer base | `https://indexer2.kashnio.com/api/indexer` |
+| Routed indexer alias | `https://indexer2.kashnio.com/api/indexer` |
 | Explorer | `https://explorer.kashnio.com` |
 | Wallet | `https://wallet.kashnio.com` |
 
-Only documented routes are supported. Endpoint availability, data retention,
-rate limits, and response formats follow the published compatibility policy.
+Only documented routes are supported. The two RPC origins are independently
+hosted. Both indexer hostnames route to the same canonical persistent indexer
+and must not be counted as independent storage redundancy.
 
 ## Finality
 
