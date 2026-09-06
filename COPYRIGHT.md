@@ -2,6 +2,8 @@
 
 Copyright © 2026 Kashnio. All rights reserved.
 
+The repository is governed by the [Kashnio Proprietary License](LICENSE).
+
 This repository is provided solely for public information, project updates,
 testnet documentation, release verification, and security communication.
 
@@ -22,4 +24,4 @@ or authorization without prior written permission.
 Third-party names and trademarks remain the property of their respective
 owners.
 
-For licensing or permissions enquiries, contact `support@kashnio.com`.
+For licensing or permission enquiries, contact `support@kashnio.com`.

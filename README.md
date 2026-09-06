@@ -86,6 +86,7 @@ production certification, or mainnet approval.
 - [Public roadmap](ROADMAP.md)
 - [Network information](NETWORK.md)
 - [Security reporting](SECURITY.md)
+- [License](LICENSE)
 - [Copyright and permitted use](COPYRIGHT.md)
 
 ## Repository purpose
@@ -94,5 +95,8 @@ This repository exists so the public can follow what Kashnio is building,
 which milestones are complete, which capabilities are active, and which gates
 remain. It is not an open-source distribution and grants no permission to
 reproduce the proprietary implementation.
+
+See the [Kashnio Proprietary License](LICENSE) and
+[copyright notice](COPYRIGHT.md) before using any repository material.
 
 Copyright © 2026 Kashnio. All rights reserved.
